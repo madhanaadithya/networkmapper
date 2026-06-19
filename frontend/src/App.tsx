@@ -62,9 +62,6 @@ const scanPorts = async (ip: string) => {
   return (
     <div className="min-h-screen bg-zinc-950 text-white p-8">
       <div className="mb-8">
-  <h1 className="text-4xl font-bold">
-    NetSight
-  </h1>
 
   <p className="text-zinc-400">
     Real-time network discovery dashboard
