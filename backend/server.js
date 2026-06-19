@@ -2,7 +2,9 @@ const express = require("express");
 const cors = require("cors");
 
 const app = express();
+const portRoutes = require("./routes/ports");
 
+app.use("/api/ports", portRoutes);
 app.use(cors());
 
 const scanRoutes = require("./routes/scan");
